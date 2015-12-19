@@ -1,6 +1,6 @@
 var scrolltotop={
 	setting:{
-		startline:200, //起始行
+		startline:300, //起始行
 		scrollto:0, //滚动到指定位置
 		scrollduration:400, //滚动过渡时间
 		fadeduration:[500,100] //淡出淡现消失

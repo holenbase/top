@@ -25,7 +25,7 @@ body{
 	font-family: arial, helvetica, sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
-.header{
+/*.header{
 	height: 30px;
 	width: 90%;
 	background: #00050c;
@@ -33,7 +33,7 @@ body{
 	position:relative;
 	left:5%;
 	opacity:0.5;
-}
+}*/
 #container{/*ID选择器，选择ID为container的模块*/
 	width: 960px;/*设置网址项目的总宽度*/
 	margin: 0 auto; /*上下边距为0，左右边距自动*/
