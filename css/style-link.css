@@ -95,7 +95,7 @@ body{
 }
 .side{/*在窗口左下角分配一个容器空间，距离底端高度为“bottom+height”，和右侧距离为“right+width”*/
 	position:fixed;
-	bottom: 500px;/*设置模块和底部的距离*/
+	bottom: 50%;/*设置模块和底部的距离，1080P下500px适合*/
 	right: 20px;/*距离窗口最右边距离*/
 	width: 60px;/*设置side模块的宽度*/
 	height: 120px;/*控制side模块的高度*/
