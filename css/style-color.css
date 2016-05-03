@@ -44,9 +44,9 @@ body {
 	background-color: #ff8484;
 	transition: 0.5s;
 }
-.red:hover{
+/*.red:hover{
 	background-color: #ff9191;
-}
+}*/
 .yellow{
 	height: 50%;
 	width: 50%;
@@ -56,9 +56,9 @@ body {
 	background-color: #fff884;
 	transition: 0.5s;
 }
-.yellow:hover{
+/*.yellow:hover{
 	background-color: #fff991;
-}
+}*/
 .green{
 	height: 50%;
 	width: 50%;
@@ -68,9 +68,9 @@ body {
 	background-color: #84ff9b;
 	transition: 0.5s;
 }
-.green:hover{
+/*.green:hover{
 	background-color: #93ffa7;
-}
+}*/
 .blue{
 	height: 50%;
 	width: 50%;
@@ -80,9 +80,9 @@ body {
 	background-color: #84caff;
 	transition: 0.5s;
 }
-.blue:hover{
+/*.blue:hover{
 	background-color: #91d0ff;
-}
+}*/
 .info{
 	color: #fff;
 	font-family: Consolas, Corbel, Calibri ,Candara;
@@ -116,5 +116,10 @@ body {
 @media screen and (max-width:640px){
 	.color h1{
 		font-size: 40px;
+	}
+}
+@media screen and (max-height: 300px){
+	.color h1{
+		display: none;
 	}
 }
