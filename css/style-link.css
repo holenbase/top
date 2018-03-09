@@ -89,6 +89,13 @@ body{
 	color: #fff;
 	background: #333333;
 }
+#licut{/*控制表格的分割线*/
+	width: 960px;
+	height:5px;
+	background:#e6e6e6;
+	cursor:default;/*控制鼠标移动到对象上的状态*/
+	pointer-events: none;/*控制鼠标点击后的效果*/
+}
 .clear{/*设置<br>元素的*/
 	clear:both;/*在左右两侧均不允许浮动元素。*/
 	height:0;/*高度为0*/
