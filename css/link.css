@@ -25,7 +25,8 @@ body{
 	font-family: arial, helvetica, sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
-/*.header{
+/*顶部的灰色色带
+.header{
 	height: 30px;
 	width: 90%;
 	background: #00050c;
@@ -168,10 +169,13 @@ body{
 	.side{
 		display: none;
 	}
+	body{
+		background-size:100% auto;
+	}
 }
 @media screen and (max-width:960px){/*当屏幕尺寸小于960px时，应用下面的CSS样式*/
 	body{
-		background-size:250%;
+		background-size:100%;
 	}
 	#container{
 		width:98%;
