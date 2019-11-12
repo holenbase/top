@@ -4,34 +4,29 @@
 <title>404</title>
 <link rel="shortcut icon" href="./img/ico.ico"> 
 <style type="text/css">
-<!--
 body{ margin:0;padding:0;font-family:Microsoft Yahei;color:#797979;text-align:center; }
 img{ border:0; }
 a{ color:#333; }
 a:hover{ color:#f60; }
 .erro-img{ position:relative;width:600px;height:600px;margin:0 auto;padding-top:50px; }
-.notice-text{ position:absolute;left:190px;bottom:10px;font-size:17px; }
--->
+.notice-text{ position:absolute;left:120px;bottom:10px;font-size:20px; }
 </style>
 </head>
-
 <body>
 <div class="erro-img">
-<a href="./nav.html" title="返回首页"><img src="./img/404.png" alt="404错误，没有找到页面" style="border:0;"></a>
-<span class="notice-text">不要慌！<strong id="overTime" style="font-size:18px;color:red;">5</strong> 秒后将自动返回首页，请稍候...</span>
+  <a href="https://base.holen.top" title="返回首页">
+    <img src="https://base.holen.top/img/404.png" alt="404错误，没有找到页面" style="border:0;">
+  </a>
+  <span class="notice-text">不要慌！<strong id="overTime" style="font-size:24px;color:red;">5</strong> 秒后将自动返回首页，请稍候...</span>
 </div>
 <script>
-function jump()
-{
-    //if(document.title=="404")window.location.href = "./link.html"+window.top.location;
-    window.location.href = "./nav.html";
+function jump(){
+  //if(document.title=="404")window.location.href = "https://base.holen.top"+window.top.location;
+  window.location.href = "https://base.holen.top";
 }
-
- var ot = 5;
- var sto;
-  
- function doverTime()
- {
+var ot = 5;
+var sto;
+function doverTime(){
   ot--;
   sto = setTimeout('doverTime()', 1000);
   if(ot!=0)
@@ -44,5 +39,5 @@ function jump()
 }
 setTimeout("doverTime()", 1000);
 </script>
-
-</body></html>
+</body>
+</html>
