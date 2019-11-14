@@ -1,4 +1,5 @@
-//more页面时间轴和滚动新闻支持
+//读取成员列表
+
 function doMove(e){
     var t=$(".history__bd"),
     n=t[0].children.length,
@@ -6,6 +7,7 @@ function doMove(e){
     a=parseInt(t[0].style.left?t[0].style.left:"0");
     a>=0&&e>0||a<=-400*(n-2)&&e<0||(10==times?(times=0,window.clearTimeout(i)):(times+=1,t[0].style.left=a+e+"px",i=window.setTimeout("doMove("+e+")",30)))
 }
+    
 $(function(){
     bowser&&!bowser.mobile&&(
         $("#award").flexslider({
@@ -27,17 +29,18 @@ $(function(){
             slideshowSpeed:6e3,
             controlsContainer:$(".custom-controls-container"),
             customDirectionNav:$(".custom-navigation a"),
-            directionNav:!0,prevText:"",
+            directionNav:!0,
+            prevText:"",
             nextText:"",
             manualControls:".slide_switch__item"
         })
-        ),
+    ),
     $(".slide_action__btn--left").bind("click",function(){doMove(40)}),
     $(".slide_action__btn--right").bind("click",function(){doMove(-40)})
 });
 
 var times=0;
-//more页面的衍生hkt页面人物信息获取支持
+
 $(function(){
     for(var e="",t=members.length,n="",i="",a="",o="",s=window.location.href,l=0;l<t;l++){
         var _=members[l];
@@ -46,8 +49,8 @@ $(function(){
         a=_.name_cn,
         o=_.position_cn,
         memberAlt=_.alt_cn,
-        e=e+'<li class="management_list__item" id="'+n+'"><a href="javascript:;" class="management_list__media"><img src="'+i+'" class="management_list__media_img" alt="'+memberAlt+'"></a><a href="javascript:;"> <h3 class="management_list__name">'+a+'</h3></a><a href="javascript:;"><p class="management_list__txt">'+o+"</p></a></li>"
-    }$(".management_list").html(e)
+        e=e+'<li class="management_list__item" id="'+n+'"><a href="javascript:;" class="management_list__media"><img src="'+i+'" class="management_list__media_img" alt="'+memberAlt+'"></a><a href="javascript:;"> <h3 class="management_list__name">'+a+'</h3></a><a href="javascript:;"><p class="management_list__txt">'+o+"</p></a></li>"}
+    $(".management_list").html(e)
 }),
 
 $(function(){
