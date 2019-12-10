@@ -6,7 +6,7 @@ var scrolltotop={
 		fadeduration:[500,100] //淡出淡现消失
 	},
 	controlHTML:'<img src="img/top.png" style="width:95px; height:95px; border:0;" />', //返回顶部按钮
-	controlattrs:{offsetx:30,offsety:80},//返回按钮固定位置
+	controlattrs:{offsetx:75,offsety:80},//返回按钮固定位置
 	anchorkeyword:"#top",
 	state:{
 		isvisible:false,
