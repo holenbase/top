@@ -140,7 +140,8 @@ body{
 	color: #fff;
 }
 .side_div_l:hover{
-	background:#FCC800;
+	background:#FFF;
+	/* background:#FCC800; */
 	color:#ff205a;
 	font-weight:bolder;
 }
