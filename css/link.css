@@ -47,23 +47,38 @@ body{
 	border-radius: 6px;/*设置每个列表的边框角半径弧度*/
 	overflow: hidden;/*当内容溢出元素框时，内容会被修剪，并且其余内容是不可见的。*/
 }
-.holen_name{/*蓝色blue标题*/
+.holen_name{/*默认标题栏底色为蓝色*/
 	height: 40px;
 	width: 100%;
-	background: #2CBAFC;
+	background: #45a3f0;
 	overflow: hidden;
 }
 .holen .pink{/*holen类的派生类*/
-	background: #FD6EA3;
+	background: #fd6e86;
 }
 .holen .red{
-	background: #C52622;
+	background: #f11048;
 }
 .holen .green{
-	background: #23BE9B;
+	background: #28ddb3;
 }
 .holen .yellow{
-	background: #FCC800;
+	background: #ffc13a;
+}
+.holen .blue{
+	background: #2594c7;
+}
+.holen .pink2{
+	background: #fd6e75;
+}
+.holen .red2{
+	background: #C52622;
+}
+.holen .green2{
+	background: #23BE9B;
+}
+.holen .orange{
+	background: #ff8d30;
 }
 .holen_name p{
 	font-size: 22px;
