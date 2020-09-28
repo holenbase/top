@@ -123,36 +123,36 @@ body{
 	width: 60px;/*设置side模块的宽度*/
 	height: 120px;/*控制side模块的高度*/
 }
-.side_div{
+.side_div{/*侧边导航按钮*/
 	width: 50px;
 	height: 25px;
 	background: #ffffff;/*设置背景为白色*/
 	margin-top: 1px;/*设置与上一个模块的间距*/
 }
-.side_div_s{
+.side_div_s{/*侧边导航顶部圆润按钮*/
 	width: 50px;
 	height: 25px;
 	background: #ffffff;
 	margin-top: 1px;
 	border-radius:3px 3px 0 0;
 }
-.side_div_x{
+.side_div_x{/*侧边导航底部圆润按钮*/
 	width: 50px;
 	height: 25px;
 	background: #ffffff;
 	margin-top: 1px;
 	border-radius:0 0 3px 3px;
 }
-/*联系方式contact，在nav首页中为guide2首页*/
+/*侧边导航的主页按钮，设置id为guide2*/
 .side_div_l{
 	width: 50px;
 	height: 25px;
-	background: #ff205a;/*设置背景为白色*/
+	background: #ff205a;/*设置背景为红色*/
 	margin-top: 10px;/*设置与上一个模块的间距*/
 	font-family:幼圆;
 	text-align: center;
 	font-size:21px;
-	color: #fff;
+	color: #fff;/*文字为白色*/
 }
 .side_div_l:hover{
 	background:#FFF;
@@ -160,10 +160,7 @@ body{
 	color:#ff205a;
 	font-weight:bolder;
 }
-#temp{
-	background: url(./img/temp.png);
-}
-#guide{
+#guide{/*side_div、side_div_s、side_div_x三个类使用同id的文字样式*/
 	font-family:微软雅黑;
 	text-align: center;
 	line-height: 25px;
