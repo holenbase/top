@@ -1,9 +1,9 @@
 /* 内嵌下拉列表的样式 */
-/* li {float: left;}
+/* li {float: left;} */
 li a, .dropbtn {
-    display: inline-block;
+    display: block;
 }
-li.dropdown {
+/* li.dropdown {
     display: inline-block;
 } */
 .dropdown {
