@@ -1435,7 +1435,7 @@ body {
     float: left
 }
 
-/* more页面的时间轴模块主体 */
+/* more页面的时光（时间轴）模块主体 */
 .history {
     position: relative;
     width: 100%;
@@ -1585,7 +1585,7 @@ body {
     transition: transform .75s cubic-bezier(0, 1, .75, 1)
 }
 
-/* more页面的思域模块主体 */
+/* more页面的理想模块主体 */
 .culture {
     position: relative;
     padding-bottom: 6.667%;
@@ -1720,7 +1720,7 @@ body {
     width: 56px
 }
 
-/* more页面的文轩模块主体 */
+/* more页面的前沿技术模块主体 */
 .award {
     position: relative;
     overflow: hidden;
@@ -1845,7 +1845,7 @@ body {
     transition: transform .75s cubic-bezier(0, 1, .75, 1)
 }
 
-/* more页面的拓展模块主体 */
+/* more页面的教程推荐模块主体 */
 .responsibility {
     position: relative;
     padding-bottom: 60px
