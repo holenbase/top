@@ -1,15 +1,25 @@
 // 列表只收集站内页面，name与html文件名一致。
 var newsData = [
   // {
-  //   id: 9,
+  //   id: 10,
   //   title: '',
   //   news_date: '2021-00-00',
   //   name: '',
   //   summary: '',
   //   status: 1,
-  //   img_src: './img/.jpg',
+  //   img_src: './img/.jpg(png)',
   //   source_url: './p/.html',
   // },
+  {
+    id: 9,
+    title: 'IDM下载工具绿色版',
+    news_date: '2021-04-26',
+    name: 'idm',
+    summary: '',
+    status: 1,
+    img_src: './img/paper_pic/idm.png',
+    source_url: './p/idm.html',
+  },
   {
     id: 8,
     title: '5种AE角色绑定动画脚本介绍对比',
