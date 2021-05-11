@@ -17,7 +17,7 @@ var newsData = [
     name: 'idm',
     summary: '',
     status: 1,
-    img_src: './img/paper_pic/idm.png',
+    img_src: './img/paper_pic/idm-c.png',
     source_url: './p/idm.html',
   },
   {
