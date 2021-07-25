@@ -1,0 +1,38 @@
+var members  = [
+    {
+        id:1,
+        name_cn: "null",
+        position_cn: "文案策划",
+        img_sm:"./img/more_pic/team_m1.png",
+        img_lg:"./img/more_pic/p-MOE.png",
+        alt_cn:"null",
+        introdution_cn:"",
+    },
+    {
+        id:2,
+        name_cn: "null",
+        position_cn: "技术支持",
+        img_sm:"./img/more_pic/team_m2.png",
+        img_lg:"./img/more_pic/p-KANAKO.png",
+        alt_cn:"null",
+        introdution_cn:"",
+    },
+    {
+        id:3,
+        name_cn: "Holen",
+        position_cn: "动画制作",
+        img_sm:"./img/more_pic/team_m3.png",
+        img_lg:"./img/more_pic/p-SAE.png",
+        alt_cn:"Holen",
+        introdution_cn:"数字媒体技术<br><br>AE+C4D二维方向MG动画<br><br>负责动画制作、分镜、后期<br>",
+    },
+    {
+        id:4,
+        name_cn: "null",
+        position_cn: "美术设计",
+        img_sm:"./img/more_pic/team_m4.png",
+        img_lg:"./img/more_pic/p-NATSUMI.png",
+        alt_cn:"null",
+        introdution_cn:"",
+    },
+]
